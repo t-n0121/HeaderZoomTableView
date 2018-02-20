@@ -1,0 +1,11 @@
+framework module HeaderZoomTableView {
+  umbrella header "HeaderZoomTableView.h"
+
+  export *
+  module * { export * }
+}
+
+module HeaderZoomTableView.Swift {
+    header "HeaderZoomTableView-Swift.h"
+    requires objc
+}
