@@ -17,7 +17,6 @@ class StandardViewController: UIViewController {
         super.viewDidLoad()
 
         // Default Setting
-        tableView.imageAspectRatio = .standard
         tableView.headerImage = #imageLiteral(resourceName: "Image_standard")
     }
 
