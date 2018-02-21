@@ -36,6 +36,16 @@ public class HeaderZoomTableView: UITableView {
         }
     }
 
+    public override init(frame: CGRect, style: UITableViewStyle) {
+        super.init(frame: frame, style: style)
+        setUpCoverImage()
+    }
+
+    required public init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        setUpCoverImage()
+    }
+
     private func setUpCoverImage() {
         var aspect: CGFloat = CGFloat(3.0 / 4.0)
         switch imageAspectRatio {
