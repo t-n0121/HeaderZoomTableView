@@ -10,7 +10,7 @@ import UIKit
 
 public class HeaderZoomTableView: UITableView {
 
-    private let headerImageView = HeaderImageView()
+    private let headerView = HeaderImageView()
 
     override public var contentOffset: CGPoint {
         didSet{
@@ -18,20 +18,24 @@ public class HeaderZoomTableView: UITableView {
                 return
             }
 
-            let height = headerImageView.frame.height - contentOffset.y
-            headerImageView.imageHeight = height
+            let height = headerView.frame.height - contentOffset.y
+            headerView.imageHeight = height
         }
     }
 
     @IBInspectable public var headerImage: UIImage = UIImage() {
         didSet {
-            headerImageView.headerImage = headerImage
+            headerView.headerImage = headerImage
         }
+    }
+
+    public var headerImageView: UIImageView {
+        return headerView.headerImageView
     }
 
     public var imageAspectRatio: ImageAspectRatio = .standard {
         didSet{
-            headerImageView.imageAspectRatio = imageAspectRatio
+            headerView.imageAspectRatio = imageAspectRatio
             setUpCoverImage()
         }
     }
@@ -62,8 +66,8 @@ public class HeaderZoomTableView: UITableView {
         let width = UIScreen.main.bounds.width
         let height = width * aspect
 
-        headerImageView.frame = CGRect(origin: .zero, size: CGSize(width: width, height: height))
-        self.tableHeaderView = headerImageView
+        headerView.frame = CGRect(origin: .zero, size: CGSize(width: width, height: height))
+        self.tableHeaderView = headerView
     }
 }
 
