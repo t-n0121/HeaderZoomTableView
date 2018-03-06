@@ -8,7 +8,7 @@
 
 import UIKit
 
-public class HeaderImageView: UIView {
+class HeaderImageView: UIView {
 
 	@IBOutlet private weak var imageView: UIImageView!
 	@IBOutlet private weak var imageViewHeightConstraint: NSLayoutConstraint!
@@ -21,7 +21,7 @@ public class HeaderImageView: UIView {
 		}
 	}
 
-    public var headerImageView: UIImageView {
+    var headerImageView: UIImageView {
         return imageView
     }
 
@@ -56,12 +56,12 @@ public class HeaderImageView: UIView {
 		loadNib()
 	}
 
-    required public init?(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
 		super.init(coder: aDecoder)
 		loadNib()
 	}
 
-    override public func layoutSubviews() {
+    override func layoutSubviews() {
         super.layoutSubviews()
         imageViewWidthConstraint.constant = self.bounds.width
     }
