@@ -16,16 +16,16 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = 'https://github.com/t-n0121/HeaderZoomTableView'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author             = { 'Terki Nakano' => 'teru.develop@gmail.com' }
+  s.author       = { 'Terki Nakano' => 'teru.develop@gmail.com' }
   s.platform     = :ios, '9.0'
   s.source       = { :git => 'https://github.com/t-n0121/HeaderZoomTableView.git', :tag => "v#{s.version}" }
-  s.source_files  = 'HeaderZoomTableView/*', 'HeaderZoomTableView/HeaderImage/*'
+  s.source_files = 'HeaderZoomTableView/*', 'HeaderZoomTableView/HeaderImage/*'
   s.resources    = 'HeaderZoomTableView/**/*.xib'
   s.frameworks   = 'QuartzCore', 'UIKit'
   s.requires_arc = true
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
+  s.social_media_url    = 'https://twitter.com/nkano_t'
   # s.screenshots  = 'www.example.com/screenshots_1.gif', 'www.example.com/screenshots_2.gif'
-  # s.social_media_url   = 'http://twitter.com/t-nakano'
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
