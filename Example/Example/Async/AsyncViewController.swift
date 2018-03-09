@@ -47,7 +47,7 @@ class AsyncViewController: UIViewController {
 
 
         /*
-         Use 3rd party library example
+         Use third party library example
          Attention!!!
          This Library is not installed 3rd party library
          How install please refer to URL for each
