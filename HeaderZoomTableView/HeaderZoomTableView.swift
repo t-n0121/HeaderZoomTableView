@@ -26,6 +26,7 @@ public class HeaderZoomTableView: UITableView {
     @IBInspectable public var headerImage: UIImage = UIImage() {
         didSet {
             headerView.headerImage = headerImage
+            imageAspectRatio = .custom(w: Float(headerImage.size.width), h: Float(headerImage.size.height))
         }
     }
 
