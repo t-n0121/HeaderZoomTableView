@@ -16,8 +16,6 @@ class AsyncViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tableView.imageAspectRatio = .square
-
         let urlStr = "https://github.com/t-n0121/HeaderZoomTableView/blob/master/Example/Example/Assets.xcassets/New%20Folder/Image_square.imageset/Image_square.jpg?raw=false"
         let url: URL = URL(string: urlStr)!
 

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8n8-xZ-exz">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8n8-xZ-exz">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,38 +19,38 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="i8O-cd-VF5">
-                                <rect key="frame" x="103" y="271" width="170" height="270"/>
+                                <rect key="frame" x="93.666666666666686" y="271" width="189" height="270"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="87D-0r-p2O">
-                                        <rect key="frame" x="0.0" y="0.0" width="170" height="30"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="189" height="30"/>
                                         <state key="normal" title="Standard (W4 : H:3)"/>
                                         <connections>
                                             <segue destination="EC4-Ey-iaT" kind="show" id="eTL-CW-xwt"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3jf-fn-UfD">
-                                        <rect key="frame" x="0.0" y="60" width="170" height="30"/>
+                                        <rect key="frame" x="0.0" y="60" width="189" height="30"/>
                                         <state key="normal" title="Square (W1 : H:1)"/>
                                         <connections>
                                             <segue destination="WqR-wS-YdP" kind="show" id="rm9-qM-Yuc"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uo5-jn-ybt">
-                                        <rect key="frame" x="0.0" y="120" width="170" height="30"/>
+                                        <rect key="frame" x="0.0" y="120" width="189" height="30"/>
                                         <state key="normal" title="Wide (W16 : H:9)"/>
                                         <connections>
                                             <segue destination="bBg-CD-yp2" kind="show" id="8q5-rt-NGj"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUD-hD-I47">
-                                        <rect key="frame" x="0.0" y="180" width="170" height="30"/>
-                                        <state key="normal" title="Custom (e.g W75 : H:47)"/>
+                                        <rect key="frame" x="0.0" y="180" width="189" height="30"/>
+                                        <state key="normal" title="Custom (e.g W375 : H:235)"/>
                                         <connections>
                                             <segue destination="JTv-zu-tdP" kind="show" id="SaI-R2-rf4"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqc-xH-NuV">
-                                        <rect key="frame" x="0.0" y="240" width="170" height="30"/>
+                                        <rect key="frame" x="0.0" y="240" width="189" height="30"/>
                                         <state key="normal" title="Get Image to Async"/>
                                         <connections>
                                             <segue destination="xZv-Yu-Pli" kind="show" id="pMl-b9-9RD"/>

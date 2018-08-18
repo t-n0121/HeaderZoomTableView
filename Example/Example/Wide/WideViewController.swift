@@ -17,7 +17,6 @@ class WideViewController: UIViewController {
         super.viewDidLoad()
 
         // for wide(w16:h9)
-        tableView.imageAspectRatio = .wide
         tableView.headerImage = #imageLiteral(resourceName: "Image_wide")
 
     }

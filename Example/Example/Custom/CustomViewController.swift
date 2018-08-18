@@ -17,8 +17,11 @@ class CustomViewController: UIViewController {
         super.viewDidLoad()
 
         // for custom(e.g w375:h235)
-        tableView.imageAspectRatio = .custom(w: 375.0, h: 235.0)
+
         tableView.headerImage = #imageLiteral(resourceName: "Image_custom")
+
+//        tableView.headerImage = #imageLiteral(resourceName: "Image_square")
+//        tableView.imageAspectRatio = .custom(w: 375.0, h: 235.0)
     }
 
     override func didReceiveMemoryWarning() {

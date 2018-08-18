@@ -17,7 +17,6 @@ class SquareViewController: UIViewController {
         super.viewDidLoad()
 
         // for square(w1:h1)
-        tableView.imageAspectRatio = .square
         tableView.headerImage = #imageLiteral(resourceName: "Image_square")
     }
 
