@@ -10,7 +10,7 @@ import UIKit
 
 public class HeaderZoomTableView: UITableView {
 
-    private let headerView = HeaderImageView()
+    public let headerView = HeaderImageView()
 
     override public var contentOffset: CGPoint {
         didSet{
